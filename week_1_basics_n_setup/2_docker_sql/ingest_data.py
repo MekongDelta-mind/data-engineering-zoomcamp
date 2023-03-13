@@ -61,6 +61,16 @@ def main(params):
         except StopIteration:
             print("Finished ingesting data into the postgres database")
             break
+    
+    # creating the zones table and ingesting the data from url: https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv
+
+    zones_file_name = "zones.csv"
+    zones_url = "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv"
+    os.system(f"wget {zones_url} -O {zones_file_name}")
+    print("zones file is downloaded")
+    df_zones = pd.read_csv('zones.csv')
+    df_zones.to_sql(name='zones', con=engine, if_exists='replace')
+    print("zones csv data is inserted into the postgres db")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Ingest CSV data to Postgres')
