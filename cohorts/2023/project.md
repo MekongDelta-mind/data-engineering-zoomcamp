@@ -32,27 +32,41 @@ Project:
 
 Peer reviewing:
 
-* Peer review assignments: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vRYQ0A9C7AkRK-YPSFhqaRMmuPR97QPfl2PjI8n11l5jntc6YMHIJXVVS0GQNqAYIGwzyevyManDB08/pubhtml?gid=0&single=true)
+* Peer review assignments: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vRYQ0A9C7AkRK-YPSFhqaRMmuPR97QPfl2PjI8n11l5jntc6YMHIJXVVS0GQNqAYIGwzyevyManDB08/pubhtml?gid=0&single=true) ("project-01" sheet)
 * Form: https://forms.gle/1bxmgR8yPwV359zb7
 * Deadline: 17 April, 22:00 CET
 
-Project feedback: TBA
+Project feedback: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vQuMt9m1XlPrCACqnsFTXTV_KGiSnsl9UjL7kdTMsLJ8DLu3jNJlPzoUKG6baxc8APeEQ8RaSP1U2VX/pubhtml?gid=27207346&single=true) ("project-01" sheet)
 
 #### Project Attempt #2
 
 Project:
 
 * Form: https://forms.gle/gCXUSYBm1KgMKXVm8
-* Deadline: 27 April, 22:00 CET
+* Deadline: 4 May, 22:00 CET
 
 Peer reviewing:
 
-* Peer review assignments: TBA
-* Form: TBA
+* Peer review assignments: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vRYQ0A9C7AkRK-YPSFhqaRMmuPR97QPfl2PjI8n11l5jntc6YMHIJXVVS0GQNqAYIGwzyevyManDB08/pubhtml?gid=303437788&single=true) ("project-02" sheet)
+* Form: https://forms.gle/2x5MT4xxczR8isy37
 * Deadline: 11 May, 22:00 CET
 
-Project feedback: TBA
+Project feedback: [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vQuMt9m1XlPrCACqnsFTXTV_KGiSnsl9UjL7kdTMsLJ8DLu3jNJlPzoUKG6baxc8APeEQ8RaSP1U2VX/pubhtml?gid=246029638&single=true)
 
 ### Evaluation criteria
 
 See [here](../../week_7_project/README.md)
+
+
+### Misc
+
+To get the hash for your project, use this function to hash your email:
+
+```python
+from hashlib import sha1
+
+def compute_hash(email):
+    return sha1(email.lower().encode('utf-8')).hexdigest()
+```
+
+Or use [this website](http://www.sha1-online.com/). 
