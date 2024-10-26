@@ -25,11 +25,10 @@ Syllabus
 
 ## Taking the course
 
-### 2024 Cohort
+### 2025 Cohort 
 
-* **Start**: 15 January 2024 (Monday) at 17:00 CET
+* **Start**: January 2025
 * **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
-* [Cohort folder](cohorts/2024/) with homeworks and deadlines 
 
 
 ### Self-paced mode
@@ -44,6 +43,8 @@ can take the course at your own pace
 
 
 ## Syllabus
+
+We encourage [Learning in Public](learning-in-public.md)
 
 > **Note:** NYC TLC changed the format of the data we use to parquet.
 > In the course we still use the CSV files accessible [here](https://github.com/DataTalksClub/nyc-tlc-data).
@@ -74,6 +75,12 @@ can take the course at your own pace
 
 ### [Workshop 1: Data Ingestion](cohorts/2024/workshops/dlt.md)
 
+* Reading from apis
+* Building scalable pipelines
+* Normalising data
+* Incremental loading
+* Homework
+
 
 [More details](cohorts/2024/workshops/dlt.md)
 
@@ -85,7 +92,6 @@ can take the course at your own pace
 * Partitioning and clustering
 * BigQuery best practices
 * Internals of BigQuery
-* Integrating BigQuery with Airflow
 * BigQuery Machine Learning
 
 [More details](03-data-warehouse/)
@@ -143,9 +149,7 @@ Putting everything we learned to practice
 
 ## Overview
 
-
-<img src="images/architecture/photo1700757552.jpeg" />
-
+<img src="images/architecture/arch_v3_workshops.jpg" />
 
 ### Prerequisites
 
@@ -170,14 +174,6 @@ Past instructors:
 
 - [Sejal Vaidya](https://www.linkedin.com/in/vaidyasejal/)
 - [Irem Erturk](https://www.linkedin.com/in/iremerturk/)
-
-## Course UI
-
-Alternatively, you can access this course using the provided UI app, the app provides a user-friendly interface for navigating through the course material. 
-
-* Visit the following link: [DE Zoomcamp UI](https://dezoomcamp.streamlit.app/)
-
-![dezoomcamp-ui](https://github.com/DataTalksClub/data-engineering-zoomcamp/assets/66017329/4466d2bc-3728-4fca-8e9e-b1c6be30a430)
 
 
 ## Asking for help in Slack
@@ -216,3 +212,6 @@ Thanks to the course sponsors for making it possible to run this course
 
 Do you want to support our course and our community? Please reach out to [alexey@datatalks.club](alexey@datatalks.club)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DataTalksClub/data-engineering-zoomcamp&type=Date)](https://star-history.com/#DataTalksClub/data-engineering-zoomcamp&Date)
